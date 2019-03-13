@@ -1,4 +1,4 @@
-var wordList = [];
+var wordList = ["astronomy", "astrophysics", "atom", "beaker", "biochemistry", "biology", "botany", "burette","cell", "chemical", "chemistry", "climate", "climatologist", "control", "cuvette","data", "datum","electricity", "electrochemist", "element", "energy", "entomology", "evolution", "experiment","fact", "flask", "fossil", "funnel","genetics", "geology", "geophysics", "glassware", "graduated", "cylinder", "gravity", "herpetology", "hypothesis", "ichthyology", "immunology", "lab", "laboratory", "magnetism", "mass", "matter", "measure", "meteorologist", "meteorology", "microbiologist", "microbiology", "mineralogy", "molecule", "motion","observatory", "observe", "organism", "ornithology","article", "phase", "physics", "pipette","radiology", "research", "retort", "scale", "science", "scientist", "seismology", "telescope", "temperature", "theory", "thermometer", "tissue","variable", "virologist", "volcano", "volume","weather", "weigh","zoology"];
 
 var word = Math.floor(Math.random()*wordChoices.length);
 
