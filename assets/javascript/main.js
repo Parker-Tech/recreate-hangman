@@ -19,5 +19,16 @@ $("#newGame").click(function() {
         newDisplay = display.substring(0,i) + letter + display.substring(i+1);
       }
     }
+    display=newDisplay;
+    if(newDisplay=="") {
+      guesses--;
+      var bad = letter.toUpperCase();
+      $("#entries").append(bad);
+    }
+    if(guesses==0) {
+      losses++;
+      guesses=10;
+      display
+    }
   }
 });
